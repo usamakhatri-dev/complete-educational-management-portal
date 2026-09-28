@@ -1,0 +1,38 @@
+# Environment (contains credentials - never commit)
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+.pnpm-store
+
+# Build output
+dist/
+build/
+coverage/
+.vite/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Uploads (user data)
+uploads/
+
+# Generated files
+server/generated/
+
+# Docker
+docker-compose.override.yml
